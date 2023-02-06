@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Metadatos -->
+  <meta charset="UTF-8">
+  <meta name="author" content="Carlos Islas">
+  <meta name="description" content="Portafolio de desarrollo web de Carlos Islas">
+  <meta name="keywords" content="HTML, CSS, JavaScript, React, Node.js, Express, Sequelize, SQL">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Titulo -->
+  <title>Carlos Islas | Desarrollador Full Stack</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./img/hacker.png">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!-- Estilo Css -->
+  <link href="./style.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Barra de navegacion -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="./img/hacker.png" width="40" alt="Logo de la página web">
+        </a>
+        <ul class="navbar-nav align-items-center justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tecnologias">Tecnologías</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero image -->
+  <section class="hero">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img src="./img/carlos.jpeg" alt="Foto de Carlos">
+      <h1>Hola, soy Carlos Islas</h1>
+      <h2 id="typewriter"></h2>
+    </div>
+    <div class="hero-inferior">
+      <img class="img-fluid" src="./img/hero-inferior.svg" alt="Imagen monitor">
+    </div>
+  </section>
+
+  <!-- Sobre mí -->
+  <section id="sobre-mi" class="sobre-mi">
+    <div class="contenedor">
+      <h2 class="seccion-titulo">Conoce a Carlos Islas</h2>
+      <p class="seccion-texto">Soy ingeniero en Mecatrónica y estudiante autodidacta de Desarrollado Web enfocado en
+        programación Full Stack. </br>
+        Soy una persona autodidacta con competencias enfocadas en el trabajo de equipo, adaptabilidad, comunicación
+        asertiva, me encanta aprender y superarme continuamente.</p>
+      <a href="https://drive.google.com/file/d/19ATGw8QiU65BXqlSg7KcLpiEQ94vAJtR/view?usp=sharing" target="_blank">
+        <button type="button" class="btn btn-primary mt-1 mb-2 py-3 fw-bold text-white">DESCARGAR CV</button>
+      </a>
+    </div>
+  </section>
+
+  <!-- Tecnologias -->
+  <section id="tecnologias" class="tecnologias">
+    <h2 class="seccion-titulo">Tecnologias</h2>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="./img/tecnologias/html.svg" alt="Icono HTML">
+          <p>HTML</p>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="./img/tecnologias/css.svg" alt="Icono CSS">
+          <p>CSS</p>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="./img/tecnologias/bootstrap.svg" alt="Icono Bootstrap">
+          <p>Bootstrap</p>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="./img/tecnologias/javascript.svg" alt="Icono JavaScript">
+          <p>JavaScript</p>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="./img/tecnologias/react.svg" alt="Icono React">
+          <p>React</p>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="./img/tecnologias/redux.svg" alt="Icono Redux">
+          <p>Redux</p>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="./img/tecnologias/git.svg" alt="Icono Git">
+          <p>Git</p>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="./img/tecnologias/github.svg" alt="Icono GitHub">
+          <p>GitHub</p>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="./img/tecnologias/nodejs.svg" alt="Icono Node">
+          <p>Node</p>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="./img/tecnologias/express.svg" alt="Icono Express">
+          <p>Express</p>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="./img/tecnologias/sequelizejs.svg" alt="Icono Sequelize">
+          <p>Sequelize</p>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="./img/tecnologias/postgresql.svg" alt="Icono PostgreSQL">
+          <p>PostgreSQL</p>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="./img/tecnologias/mysql-icon.svg" alt="Icono MySQL">
+          <p>MySQL</p>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="./img/tecnologias/mongodb-icon.svg" alt="Icono Mongo">
+          <p>MongoDB</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portafolio -->
+  <section id="proyectos" class="proyectos">
+    <h2 class="seccion-titulo">Mis proyectos</h2>
+    <h3 class="seccion-descripcion text-center">Estos son algunos proyectos que he creado recientemente...</h3>
+    <div class="container proyecto-contenedor">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="./img/proyectos/pokemon-app.png" alt="Pokemon app">
+            <div class="overlay">
+              <p>Pokemon App</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/Caarlos94/pokemon" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://pokemon-caarlos94.vercel.app" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="./img/proyectos/supra-app.png" alt="Supra-eCommerce">
+            <div class="overlay">
+              <p>Supra Sports</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/Caarlos94/SupraSports" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://suprasports.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="./img/proyectos/proff-app.png" alt="Proff app">
+            <div class="overlay">
+              <p>Proff App</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/Caarlos94/Proff" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://proff-caarlos94.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="./img/proyectos/weather-app.png" alt="Weather app">
+            <div class="overlay">
+              <p>Weather App</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/Caarlos94/Proff" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://proff-caarlos94.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="./img/proyectos/memes-app.png" alt="Memes app">
+            <div class="overlay">
+              <p>Memes App</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/Caarlos94/memes-App" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://caarlos94.github.io/memes-App/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <a href="https://github.com/Caarlos94" target="_blank">
+      <button type="button" class="btn btn-primary py-3 fw-bold text-white">
+        MÁS PROYECTOS
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+  </section>
+
+  <!-- Testimonios -->
+  <!-- <section class="testimonios">
+    <h2 class="seccion-titulo">Testimonios</h2>
+    <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+    <div id="testimonios-carrusel" class="carousel slide carousel-dark">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img src="./img/clientes/cliente1.svg" class="testimonio-imagen rounded-circle" alt="Cliente 1">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ratione facere
+              beatae cum debitis ullam inventore magnam, accusamus ipsa necessitatibus odio atque excepturi possimus?
+            </p>
+            <div class="testimonio-info">
+              <p class="cliente">Gino</p>
+              <p class="cargo">Gerente de proyectos en Desarrollado Web</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img src="./img/clientes/cliente2.svg" class="testimonio-imagen rounded-circle" alt="Cliente 2">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ratione facere
+              beatae cum debitis ullam inventore magnam, accusamus ipsa necessitatibus odio atque excepturi possimus?
+            </p>
+            <div class="testimonio-info">
+              <p class="cliente">Nora</p>
+              <p class="cargo">Gerente de DiseñaMiPáginaWeb</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img src="./img/clientes/cliente3.svg" class="testimonio-imagen rounded-circle" alt="Cliente 3">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ratione facere
+              beatae cum debitis ullam inventore magnam, accusamus ipsa necessitatibus odio atque excepturi possimus?
+            </p>
+            <div class="testimonio-info">
+              <p class="cliente">Leonardo</p>
+              <p class="cargo">Director de AprendeAProgramar</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section> -->
+
+  <!-- Contacto -->
+  <section id="contacto" class="contacto">
+    <h2 class="seccion-titulo text-white">Contacto</h2>
+    <h3 class="seccion-descripcion text-center text-white">Contáctame para inciar tu proyecto de desarrollo web y haré
+      que tu visión se vuelva realidad.</h3>
+    <div class="contacto-container">
+      <form class="contacto-form">
+        <div class="mb-3">
+          <input type="text" name="nombre" placeholder="INGRESA TU NOMBRE" class="form-control" id="FormControl">
+        </div>
+        <div class="mb-3">
+          <input type="email" name="correo" placeholder="INGRESA TU CORREO" class="form-control" id="FormControl">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" name="comentarios" placeholder="DEJAME TUS COMENTARIOS"
+            id="exampleFormControlTextarea1" rows="6"></textarea>
+        </div>
+        <div class="contact-form-loader text-center loader">
+          <img src="./img/loader.svg" alt="Enviando">
+        </div>
+        <input type="submit" class="btn btn-primary py-3 fw-bold text-white" value="ENVIAR MENSAJE">
+      </form>
+      <!-- Ventana Modal -->
+      <article id="gracias" class="modal-container">
+        <div>
+          <article class="contact-modal-response">
+            <h3>¡MUCHAS GRACIAS!
+              <br>
+              POR TUS COMENTARIOS
+            </h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M12,18c4,0,5-4,5-4H7C7,14,8,18,12,18z" />
+              <path
+                d="M12,2C6.486,2,2,6.486,2,12c0,5.514,4.486,10,10,10s10-4.486,10-10C22,6.486,17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8 s3.589-8,8-8s8,3.589,8,8S16.411,20,12,20z" />
+              <path
+                d="M13 12l2 .012C15.012 11.55 15.194 11 16 11s.988.55 1 1h2c0-1.206-.799-3-3-3S13 10.794 13 12zM8 11c.806 0 .988.55 1 1h2c0-1.206-.799-3-3-3s-3 1.794-3 3l2 .012C7.012 11.55 7.194 11 8 11z" />
+            </svg>
+          </article>
+        </div>
+    </div>
+    <!-- Footer y redes sociales -->
+    <footer class="d-flex flex-column align-items-center justify-content-center">
+      <img src="./img/hacker.png" alt="Logo del portafolio">
+      <p class="text-white seccion-descripcion mb-2">Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/CarlosIs5294" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/Caarlos94" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/juan-carlos-islas-lopez/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/carlos.islas94/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:cislas5294@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Carlos Islas (2023) &#169;</div>
+    </footer>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
