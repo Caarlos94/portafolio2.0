@@ -61,10 +61,11 @@ h1 {
   color: white;
   height: 500px;
   padding: 15px 10px;
+  line-height: 1.75;
 }
 
 .sobre-mi .contenedor {
-  max-width: 625px;
+  max-width: 635px;
   text-align: center;
 }
 
