@@ -4,9 +4,9 @@ const typewriter = new Typewriter(app, {
   loop: true,
   delay: 120,
 });
-
+// .typeString("DESARROLLADOR WEB <strong>FULL STACK!</strong>")
 typewriter
-  .typeString("DESARROLLADOR WEB <strong>FULL STACK!</strong>")
+  .typeString("FULL STACK <strong>JAVASCRIPT DEVELOPER</strong>")
   .pauseFor(2000)
   .deleteAll()
   .start();

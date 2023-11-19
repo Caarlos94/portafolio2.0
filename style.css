@@ -15,6 +15,7 @@ h1 {
   font-size: 2rem;
   padding: 15px 0;
   font-family: 'Rubik Dirt', cursive;
+  margin-bottom: 0;
 }
 
 .seccion-texto {
@@ -65,7 +66,7 @@ h1 {
 }
 
 .sobre-mi .contenedor {
-  max-width: 635px;
+  max-width: 650px;
   text-align: center;
 }
 
@@ -110,7 +111,7 @@ h1 {
 }
 
 .proyecto-contenedor {
-  padding-top: 30px;
+  padding-top: 15px;
   margin-bottom: 20px;
 }
 
@@ -137,7 +138,7 @@ h1 {
 }
 
 .overlay p {
-  font-size: 25px;
+  font-size: 24px;
   font-weight: bold;
   margin-bottom: 0;
 }
